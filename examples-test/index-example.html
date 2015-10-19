@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- ng-app Directive - code that targets a Specific Module, thus pointing it to myApp, the whole page is being controlled by the module-->
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <script src="https://code.angularjs.org/1.4.3/angular.js" data-semver="1.4.3"></script>
+        <script src="controllers.js"></script>
+    </head>
+    <body>
+        <input type="text" ng-model="name">
+        <h2>Welcome {{name}}</h2>
+
+		<div ng-controller="MyController">
+			<h1>{{ author.name }}</h1>
+			<p>{{ author.title + ', '  + author.company }}</p>
+		</div>
+		<!-- Anything inside the $scope var will be available inside this controller -->
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

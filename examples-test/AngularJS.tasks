@@ -1,0 +1,17 @@
+AngularJs MVC:
+ ☐ M = Model - is the DATA (file.txt, file.json, SQL dBase)
+ ☐ MODEL in AngularJs is referred to as the DATA.
+ ☐ V = View - This shows your Data referred to as a TEMPLATE
+ ☐ VIEW in AngularJs is referred to as TEMPLATE
+ ☐ View is made up of HTML + {{ data }} where you want that to appear on the page
+ ☐ {{ data }} hold EXPRESSIONS that CONTROL how the DATA APPEARS on the page
+ ☐ C = Controller - the ABILITY to add FUNCTIONALITY to your Views
+ ☐ CONTROLLER in AngularJs that LINKS your DATA to your TEMPLATES
+ ☐ CONTROLS the INTERACTIONS b/w your MODELS & your VIEWS
+ ☐ For LARGE Apps, they use MODULES - which SPLITS UP the CODE into SEPARATE file.js that take care of a PARTICULAR TASK
+ ☐ A SERIES of MODULES make up your App
+ ☐ AngularJs way of CREATING Apps is MODEL VIEW WHATEVER b/c the architecture is a bit more flexible
+ ☐ MODULES
+ ☐ SCOPE
+ ☐ CONTROLLERS
+ ☐ 

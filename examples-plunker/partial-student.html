@@ -1,0 +1,9 @@
+<div ng-controller="StudentCtrl">
+<h1>Students</h1>
+    <ul>
+      <li ng-repeat="s in student">
+        {{s.firstName}} {{s.lastName}} 
+        <a href='#/student/{{s.id}}'>{{s.id}}</a>
+      </li>
+    </ul>
+  </div>

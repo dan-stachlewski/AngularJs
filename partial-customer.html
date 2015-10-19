@@ -1,0 +1,10 @@
+<div ng-controller="customersCtrl">
+	<ul>
+		<li ng-repeat="x in customers">
+			{{ x.Name + ': Order made in: ' + x.Country }}
+			<a href="#/customer/{{x.id}}">order</a>
+		</li>
+	</ul>
+</div>
+
+

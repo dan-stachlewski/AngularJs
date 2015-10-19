@@ -1,0 +1,33 @@
+AngularJS WorkFlow:
+This is our typical workflow when making an AngularJs app:
+ ☐ CREATE a MODULE and use 'ng-app' in the VIEW to define the app SCOPE
+ ☐ CREATE a CONTROLLER and use 'ng-controller' in the VIEW to define the CONROLLER SCOPE
+ ☐ ADD DATA to '$scope' in the CONTROLLER so they can be displayed with EXPRESSIONS in the VIEW
+ ☐ In the CONTROLLER, we used an OBJECT to GROUP together RELATED DATA about a product.
+ ☐ Then, in the VIEW we used DO.NOTATION  to DISPLAY the VALUES
+ ☐ We used a ANGULARJS FILTER to FORMAT DATA in the VIEW from a NUMBER to a FORMATTED CURRENCY
+ ☐ ANGULARJS retrieves the VALUE of 'product.price' & SENDS the NUMBER to a CURRENCY FILTER
+ ☐ The | 'PIPE SYMBOL' takes the OUTPUT on the LHS & 'PIPES' it to the RHS & the FILTER OUTPUTS a FORMATTED CURRENCY with the '$ SIGN' & the CORRECT DECIMAL PLACES
+ ☐ In this way the FILTERS HELP to SEPARATE CONTENT in the CONTROLLER from its PRESENTATION in the VIEW
+ ☐ 
+ ☐ 
+ ☐ 
+ ☐ 
+ ☐ 
+ ☐ 
+
+ DIR SETUP:
+
+[AngularJs]
+- [css]
+  - style.css
+- [img]
+  - logo.png
+- [js]
+  - [controllers]
+    - MainController.js
+  - [shared]
+    - angular-route.min.js
+    - angular.min.js
+    - app.js
+- index.html

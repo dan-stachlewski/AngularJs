@@ -1,0 +1,16 @@
+<div ng-controller="CourseCtrl">
+  <h1>Timetable</h1>
+  <ul class="heading">
+    <li >Day</li>
+    <li >Time</li>
+    <li >Class</li>
+    <li >Duration</li>
+  </ul>
+  <ul ng-repeat="c in timetable" class="heading">
+    <li >{{c.Day}}</li>
+    <li >{{c.Time}}</li>
+    <li >{{c.Title}}</li>
+    <li >{{c.Duration}}</li>
+  </ul>
+  <a href="#/student">Home</a>
+</div>

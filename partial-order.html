@@ -1,0 +1,22 @@
+<!--<div ng-controller="customersCtrl" ng-controller="orderCtrl">-->
+<div ng-controller="orderCtrl">
+
+	<!--<h1 ng-repeat="x in customers">Order for {{ x.Name }}</h1>-->
+	<h1>Order for {{ x.Id }}</h1>
+
+	<ul class="heading">
+		<li>Item</li>
+		<li>Description</li>
+	</ul>
+	<ul ng-repeat="x in order" class="heading">
+		<li > {{ x.Item }} </li>
+		<li > {{ x.Description }} </li>
+	</ul>
+	<br />
+	<br />
+	<br />
+	<a class="link" href="#/customer">Home</a>
+</div>
+
+
+

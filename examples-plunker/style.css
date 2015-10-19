@@ -1,0 +1,5 @@
+/* Put your css in here */
+
+ul {list-style-type:none;}
+ul.heading {background-color:#333;clear:both;}
+.heading li {float:left;padding:5px; width:90px;background-color:#eee;}
